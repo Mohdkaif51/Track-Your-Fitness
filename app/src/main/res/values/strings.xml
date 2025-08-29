@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fitness Tracking App</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="tracking_started">tracking_started\n</string>
+    <string name="tracking_stopped">tracking_stopped\n</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FitnessTracker" parent="Theme.Material3.DayNight">
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimary_light">@color/primary_light</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <item name="colorSecondary">@color/accent</item>
+    <item name="colorOnSecondary">@color/white</item>
+    <item name="android:statusBarColor">@color/primary</item>
+</style>
+
+    <style name="Theme.FitnessTrackingApp.Splash" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">@color/white</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/fitness</item>
+    <item name="postSplashScreenTheme">@style/Theme.FitnessTrackingApp</item>
+    </style>
+
+
+    <style name="Theme.FitnessTracker.AppBarOverlay" parent="ThemeOverlay.Material3.Dark.ActionBar" />
+    <style name="Theme.FitnessTracker.PopupOverlay" parent="ThemeOverlay.Material3.Light" />
+
+</resources>
